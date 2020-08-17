@@ -1,6 +1,6 @@
 CREATE TABLE `consultations` (
   `record_id` binary(16) NOT NULL,
-  `clinic_name` binary(16) NOT NULL,
+  `clinic_name` varchar(45) NOT NULL,
   `doctor_name` varchar(45) NOT NULL,
   `patient_name` varchar(45) NOT NULL,
   `diagnosis` varchar(255) DEFAULT NULL,
