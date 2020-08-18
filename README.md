@@ -1,5 +1,7 @@
 # Mediconcen_code_test
 
+Please must use Mysql 8 or latest!
+
 ## API DOC
 link: 
 [https://documenter.getpostman.com/view/7575861/T1LPESe7?version=latest](https://documenter.getpostman.com/view/7575861/T1LPESe7?version=latest)
