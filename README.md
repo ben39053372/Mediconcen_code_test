@@ -17,6 +17,12 @@ link:
 * react-redux
 * asyncStorage
 
+## Deploy Mysql
+1. install Docker
+2. run the command , remember to change the password and port
+```
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=<YOUR_PASSWORD> -p <host_port>:3306 -d mysql:latest
+```
 
 ## TODO (for record)
 1. front end input valid  - not enough time.
