@@ -34,6 +34,7 @@ docker run --name mysql -e MYSQL_ROOT_PASSWORD=<YOUR_PASSWORD> -p <host_port>:33
 1. go to backend folder
   ```
   cd backend
+  yarn install
   ```
 1. copy .env.simple to .env. And fill in the information
 2. run schema sql to init database schema
@@ -44,11 +45,12 @@ docker run --name mysql -e MYSQL_ROOT_PASSWORD=<YOUR_PASSWORD> -p <host_port>:33
 1. go to front end
   ```
   cd ../frontend
+  yarn / npm install
   ```
 2. config the setting.js change api baseUrl
 3. run
   ```
-  yarn start
+  yarn start / npm run start
   ```
  
     
